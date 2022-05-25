@@ -1,0 +1,29 @@
+{
+  "name": "reddit-fetch-json",
+  "version": "1.0.0",
+  "description": "Get the JSON from any given subreddit without oauth certificates.",
+  "main": "reddit-fetch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/reddit-fetch.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willmustafa/Reddit-Fetch-Json.git"
+  },
+  "keywords": [
+    "reddit",
+    "fetch",
+    "json"
+  ],
+  "author": "willian mustafa <willianfmustafa@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/willmustafa/Reddit-Fetch-Json/issues"
+  },
+  "homepage": "https://github.com/willmustafa/Reddit-Fetch-Json#readme",
+  "devDependencies": {
+    "typescript": "^4.7.2"
+  }
+}
